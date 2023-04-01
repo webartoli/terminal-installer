@@ -13,14 +13,14 @@
 
 ```ps
 Set-ExecutionPolicy Bypass -Scope Process -Force
-$url="https://raw.githubusercontent.com/bonben365/"
+$url="https://raw.githubusercontent.com/bonben365/terminal-installer/main/install.ps1"
 iex ((New-Object System.Net.WebClient).DownloadString($url))
 ```
-➡️Please inspect https://raw.githubusercontent.com/bonben365/ prior to running any of these scripts to ensure safety. We already know it's safe, but you should verify the security and contents of any script from the internet you are not familiar with.
+➡️Please inspect https://raw.githubusercontent.com/bonben365/terminal-installer/main/install.ps1 prior to running any of these scripts to ensure safety. We already know it's safe, but you should verify the security and contents of any script from the internet you are not familiar with.
 
 ## Screenshots
 
-![App Screenshot](https://s3.amazonaws.com/s3.bonben365.com/files/2023/b9CLMjMxxfzks7hFUrjHpPBiyFPVawPAZZGk9wAkFHyij3yq7Kjl2WX.jpg)
+![App Screenshot]()
 
 ## Documentation
 
