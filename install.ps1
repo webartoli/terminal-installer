@@ -12,7 +12,7 @@ For detailed script execution: https://bonben365.com/
 #Install and update Desktop framework packages
 $location = "~/Downloads"
 Set-Location $location
-$uri = 'https://github.com/bonben365/office365-installer/raw/main/setup.exe'
+$uri = 'https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx'
 (New-Object Net.WebClient).DownloadFile($uri, "$location\Microsoft.VCLibs.x64.14.00.Desktop.appx")
 Add-AppxPackage -Path 'Microsoft.VCLibs.x64.14.00.Desktop.appx'
 
