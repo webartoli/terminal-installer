@@ -1,5 +1,5 @@
 
-# xxx
+# Download and install Windows Terminal
 
 ## Requirements
 
